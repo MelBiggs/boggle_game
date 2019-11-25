@@ -78,7 +78,7 @@ class TestBoggle(unittest.TestCase):
         self.assertEqual(oneLetterWord, grid[(0, 0)])
         self.assertEqual(twoLetterWord, grid[(0, 0)] + grid[(1, 1)])
         
-     def test_search_grid_for_words(self):
+    def test_search_grid_for_words(self):
         """
         Ensure that certain patterns can be found in a `path_to_word`
         """
